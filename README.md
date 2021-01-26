@@ -2,7 +2,7 @@
 
 ## Descripción general
 
-Aplicación Andorid dedicada a la gestión de videojuegos.
+Aplicación Android dedicada a la gestión de videojuegos.
 
 ## Finalidad
 
