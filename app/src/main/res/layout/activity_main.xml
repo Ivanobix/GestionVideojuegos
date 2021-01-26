@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblTituloAplicacion"
+        style="@style/resaltado2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listVideojuegos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/fondo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblTituloAplicacion"></ListView>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fabOpciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        app:fab_addButtonColorNormal="@color/negro_semitransparente"
+        app:fab_addButtonColorPressed="#00FFF7"
+        app:fab_labelStyle="@style/Etiquetas"
+        app:layout_constraintBottom_toBottomOf="@+id/listVideojuegos"
+        app:layout_constraintEnd_toEndOf="parent"
+        fab:fab_addButtonSize="normal"
+        fab:fab_labelsPosition="left">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnFiltrar"
+            style="BotonFlotanteSecundario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/negro_semitransparente"
+            app:fab_colorPressed="#00FFF7"
+            fab:fab_icon="@drawable/filtrar"
+            fab:fab_size="mini"
+            fab:fab_title="@string/filtrar" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnOrdenar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/negro_semitransparente"
+            app:fab_colorPressed="#00FFF7"
+            app:fab_icon="@drawable/ordenar_ascendente"
+            fab:fab_size="mini"
+            fab:fab_title="@string/ordenar" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnNuevo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/negro_semitransparente"
+            app:fab_colorPressed="#00FFF7"
+            fab:fab_icon="@drawable/nuevo"
+            fab:fab_size="mini"
+            fab:fab_title="@string/nuevo" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

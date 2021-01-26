@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filtrados">
+        <item>@string/titulo</item>
+        <item>@string/plataforma</item>
+        <item>@string/genero</item>
+        <item>@string/anoSalida</item>
+    </string-array>
+</resources>

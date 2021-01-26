@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Video Games</string>
+    <string name="eliminar">Delete</string>
+    <string name="modificar">Update</string>
+    <string name="gameplay">Gameplay</string>
+    <string name="plataforma">Available on:</string>
+    <string name="genero">Genre:</string>
+    <string name="anoSalida">Release:</string>
+    <string name="crear">Create</string>
+    <string name="cancelar">Cancel</string>
+    <string name="titulo">Title:</string>
+    <string name="nuevo">New</string>
+    <string name="filtrar">Filter</string>
+    <string name="ordenar">Sort</string>
+    <string name="videojuego_nuevo">The video game has been added.</string>
+    <string name="videojuego_eliminado">The video game has been removed.</string>
+    <string name="videojuego_modificado">The video game has been modified.</string>
+    <string name="lista_filtrada">The list has been filtered.</string>
+    <string name="lista_ordenada_des">The list has been reversed.</string>
+    <string name="lista_ordenada_asc">The list has been sorted.</string>
+    <string name="falta_titulo">The title cannot be empty.</string>
+    <string name="falta_genero">Genre cannot be empty.</string>
+    <string name="falta_plataforma">The platform cannot be empty.</string>
+    <string name="falta_ano_salida">The release year cannot be empty.</string>
+    <string name="incorrecto_ano_salida">The year of departure must be between 1915 and the current year.</string>
+    <string name="filtro">Filter</string>
+    <string name="filtrar_por_algo">FILTER BY FIELD:</string>
+    <string name="ordenar_por">SORT BY FIELD:</string>
+</resources>

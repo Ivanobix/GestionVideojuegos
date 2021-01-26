@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="sombreado">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">10</item>
+    </style>
+
+    <style name="resaltado">
+        <item name="android:shadowColor">#00FFF7</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">10</item>
+    </style>
+
+    <style name="resaltado2">
+        <item name="android:shadowColor">#FF0000</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">10</item>
+    </style>
+
+    <style name="Etiquetas">
+        <item name="android:background">@drawable/background_label_fab</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Boton">
+        <item name="android:backgroundTint">#121111</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#00FFF7</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">10</item>
+    </style>
+
+    <style name="NuevoCampo">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorHint">#00FFFF</item>
+        <item name="android:background">@color/negro_semitransparente</item>
+        <item name="android:shadowColor">#00FFF7</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">10</item>
+
+    </style>
+
+
+</resources>

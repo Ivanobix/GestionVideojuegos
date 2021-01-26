@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Videojuegos</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="modificar">Modificar</string>
+    <string name="gameplay">Captura del juego</string>
+    <string name="plataforma">Disponible en:</string>
+    <string name="genero">Género:</string>
+    <string name="anoSalida">Año de salida:</string>
+    <string name="crear">Crear</string>
+    <string name="cancelar">Volver</string>
+    <string name="titulo">Título:</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="filtro">Filtro</string>
+    <string name="filtrar">Filtrar</string>
+    <string name="ordenar">Ordenar</string>
+    <string name="filtrar_por_algo">FILTRAR POR CAMPO:</string>
+
+    <string name="falta_titulo">El título no puede estar vacío.</string>
+    <string name="falta_genero">El género no puede estar vacío.</string>
+    <string name="falta_plataforma">La plataforma no puede estar vacía.</string>
+    <string name="falta_ano_salida">El año de salida no puede estar vacío.</string>
+    <string name="incorrecto_ano_salida">El año de salida debe estar entre 1915 y el año actual.</string>
+
+    <string name="videojuego_nuevo">El videojuego ha sido añadido.</string>
+    <string name="videojuego_eliminado">El videojuego ha sido eliminado.</string>
+    <string name="videojuego_modificado">El videojuego ha sido modificado.</string>
+    <string name="lista_filtrada">La lista ha sido filtrada.</string>
+    <string name="lista_ordenada_des">La lista ha sido invertida.</string>
+    <string name="lista_ordenada_asc">La lista ha sido ordenada.</string>
+    <string name="ordenar_por">ORDENAR POR CAMPO:</string>
+</resources>
